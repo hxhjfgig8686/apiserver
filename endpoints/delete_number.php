@@ -1,8 +1,8 @@
 <?php
 // endpoints/delete_number.php
 
-require_once __DIR__ . '/../api/auth.php';
-require_once __DIR__ . '/../api/functions.php';
+require_once __DIR__ . '/../includes/auth.php';
+require_once __DIR__ . '/../includes/functions.php';
 
 $user = require_auth();
 
