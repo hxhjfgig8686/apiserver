@@ -2,10 +2,10 @@
 // api/config.php
 
 // إعدادات قاعدة البيانات
-define('DB_HOST', getenv('MYSQLHOST') ?: 'localhost');
+define('DB_HOST', getenv('MYSQLHOST') ?: 'centerbeam.proxy.rlwy.net:41686');
 define('DB_NAME', getenv('MYSQLDATABASE') ?: 'sms_api');
 define('DB_USER', getenv('MYSQLUSER') ?: 'root');
-define('DB_PASS', getenv('MYSQLPASSWORD') ?: '');
+define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'dvKHeTRSjpWetGAjSwvixaaVFTZfmyDq');
 
 // إعدادات عامة
 define('API_DEBUG', true);
