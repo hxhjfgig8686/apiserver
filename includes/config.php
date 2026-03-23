@@ -1,5 +1,5 @@
 <?php
-// api/config.php
+// includes/config.php
 
 // إعدادات قاعدة البيانات
 define('DB_HOST', getenv('MYSQLHOST') ?: 'centerbeam.proxy.rlwy.net:41686');
