@@ -1,7 +1,7 @@
 <?php
 // admin/login.php
 session_start();
-require_once __DIR__ . '/../api/auth.php';
+require_once __DIR__ . '/../includes/auth.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'] ?? '';
