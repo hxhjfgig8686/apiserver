@@ -1,5 +1,5 @@
 <?php
-// api/auth.php
+// includes/auth.php
 
 require_once __DIR__ . '/db.php';
 
