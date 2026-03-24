@@ -5,8 +5,8 @@ require_once __DIR__ . '/includes/db.php';
 try {
 
     // 🔐 إنشاء Admin
-    $admin_user = 'asmeralselwi103@gmail.com';
-    $admin_pass = password_hash('Mohammed Saeed 123', PASSWORD_DEFAULT);
+    $admin_user = 'admin';
+    $admin_pass = password_hash('123456', PASSWORD_DEFAULT);
 
     db()->prepare("INSERT INTO admins (username, password)")
         ->execute([$admin_user, $admin_pass]);
