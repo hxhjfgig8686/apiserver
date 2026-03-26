@@ -13,9 +13,7 @@ define('API_TIMEZONE', 'Africa/Cairo');
 define('API_VERSION', '1.0.0');
 
 // مفاتيح API المسموح بها
-define('API_ALLOWED_KEYS', json_encode([
-    'sk_cc1480ac5e3a4818e07fb4b0674bc2a72228372220dba26ac4579cfd4eda903b'
-]));
+define('API_ALLOWED_KEYS', json_encode(["sk_cc1480ac5e3a4818e07fb4b0674bc2a72228372220dba26ac4579cfd4eda903b"]));
 
 // أكواد الدول
 define('COUNTRY_CODES', json_encode([
